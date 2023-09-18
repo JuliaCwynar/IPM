@@ -1,0 +1,30 @@
+#root {
+  padding: 2rem;
+  text-align: center;
+}
+
+.header {
+  display: grid;
+  grid-template-rows:auto auto;
+}
+
+.title {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  text-align: center;
+}
+
+.navbar {
+  padding-right: 2vw;
+  text-align: justify;
+  font-size: 18px;
+  width: 25vw;
+  background-color: rgba(108, 139, 219, 0.06);
+}
+.navbar ul a{
+  margin: auto;
+  font-size: 2vw;
+  margin-bottom: 2vw;
+}
+
+
