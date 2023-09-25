@@ -1,0 +1,67 @@
+.navbar {
+    color: white;
+}
+
+.members {
+  color: black;
+  background-color: rgb(255, 255, 255);
+  margin: auto;
+  justify-content: center;
+  width: 90%;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  margin-bottom: 1vw;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 0px 0px 10px 10px;
+  
+}
+.members h2 {
+  padding-top: 1vw;
+}
+.members img {
+    width: 100%;
+    background-size: contain;
+    margin: auto;
+    height: 8vw;
+    width: 8vw;
+    padding-right: 0.5vw;
+    border-radius: 100px;
+  }
+
+  .members ul {
+    margin: auto;
+    width: 90%;
+    padding: 0vw;
+  }
+
+  .members .person {
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 0.3vw;
+    color: black;
+    padding-bottom: 2.2vw;
+    justify-content: left;
+    line-height: 20px;
+    width: 240px;
+  }
+
+
+
+  .members{
+    margin-left: 0vw;
+    justify-content: left;
+  }
+
+  .desc {
+    background-color: white;
+    color: black;
+    width: 90%;
+    margin: auto;
+    padding: 1vw 0;
+  }
+
+  .desc p {
+    margin: 1vw;
+  }
+
