@@ -1,13 +1,29 @@
 function Post() {
 
+  const onButtonClick = () => {
+    fetch('SamplePDF.pdf').then(response => {
+        response.blob().then(blob => {
+            // Creating new object of PDF file
+            const fileURL = window.URL.createObjectURL(blob);
+            // Setting various property values
+            let alink = document.createElement('a');
+            alink.href = fileURL;
+            alink.download = 'stage1.docx';
+            alink.click();
+        })
+    })
+}
+
   return (
   <div className='post'>
     <div className='content'>
       <div className='title'> 
-        <h3>Date</h3>
-        <h1>Assignment 1</h1>
+        <h3>02/10/2023</h3>
+        <h1>Stage 1: Project proposal</h1>
       </div>
-      <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+      <button className='button-13' onClick={onButtonClick}>
+                    Download PDF
+                </button>
     </div>
   </div>
   )

@@ -17,7 +17,7 @@ function Sidebar() {
   <div className='description' style={{paddingLeft: '20px'}}>
     <p><b>Filip Brna</b></p>
     <p>68859</p>
-    <a href="https://www.w3schools.com">Portfolio</a>
+    <button className='portfolio'>Portfolio</button>
   </div>
   </div>
   <div className='person'>
@@ -25,7 +25,7 @@ function Sidebar() {
   <div className='description'>
     <p><b>David Pestana</b></p>
     <p>59812</p>
-    <a href="https://www.w3schools.com">Portfolio</a>
+    <button className='portfolio'>Portfolio</button>
   </div>
   </div>
   <div className='person'>
@@ -33,7 +33,7 @@ function Sidebar() {
   <div className='description'>
     <p><b>Artur Vázquez</b></p>
     <p>68771</p>
-    <a href="https://www.w3schools.com">Portfolio</a>
+    <button className='portfolio'>Portfolio</button>
   </div>
   </div>
   <div className='person'>
@@ -41,7 +41,7 @@ function Sidebar() {
   <div className='description'>
     <p><b>Julia Cwynar</b></p>
     <p>68846</p>
-    <a href="https://www.w3schools.com">Portfolio</a>
+    <button className='portfolio'>Portfolio</button>
   </div>
   </div>
         </ul>
