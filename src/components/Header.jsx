@@ -33,9 +33,9 @@ function Header() {
           { windowWidth < 800  && (
        <div className='mobile--members'>
           <Member name="Filip Brna" id="68859" img={img1}/>
-          <Member name="David Pestena" id="59812" img={img2}/>
-          <Member name="Artur Vázquez" id="68771" img={img3}/>
-          <Member name="Filip Brna" id="68846" img={img4}/>
+          <Member name="David Pestena" id="59812" img={img4}/>
+          <Member name="Artur Vázquez" id="68771" img={img2}/>
+          <Member name="Julia Cwynar" id="68846" img={img3}/>
        </div>
   )
     }
