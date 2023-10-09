@@ -1,13 +1,54 @@
 .navbar {
     color: white;
+    width: 18vw;
+    position:fixed;
 }
 
-.members {
+@media only screen and (max-width: 800px) {
+  .navbar {
+    display: none;
+  }
+
+  .mobile--members {
+    margin: 5vw 5vw;
+    background-color: white;
+    color: black;
+    border-radius: 10px 10px 0px 0px;
+    font-size: 12px;
+
+  }
+  .mobile--members img
+  {
+    width: 100%;
+    background-size: contain;
+    margin: auto;
+    padding: 1vw;
+    border-radius: 100px;
+
+  }
+
+  .mobile--members .person {
+    display: grid;
+    grid-template-columns: 20% auto;
+  }
+
+  .mobile--members p {
+    justify-content: right;
+    text-align: right;
+
+  }
+
+  .mobile--members .person .description {
+    justify-content: auto;;
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+}
+
+.navbar {
   color: black;
   background-color: rgb(255, 255, 255);
-  margin: auto;
   justify-content: center;
-  width: 90%;
   padding-top: 1vw;
   padding-bottom: 1vw;
   margin-bottom: 1vw;
@@ -15,26 +56,24 @@
   border-radius: 0px 0px 10px 10px;
   
 }
-.members h2 {
+.navbar h2 {
   padding-top: 1vw;
 }
-.members img {
-    width: 100%;
+.navbar img {
     background-size: contain;
     margin: auto;
-    height: 8vw;
-    width: 8vw;
-    padding-right: 0.5vw;
+    height: 5vw;
+    width: 5vw;
     border-radius: 100px;
   }
 
-  .members ul {
+  .navbar ul {
     margin: auto;
     width: 90%;
     padding: 0vw;
   }
 
-  .members .person {
+  .navbar .person {
     margin: auto;
     display: grid;
     grid-template-columns: auto auto;
@@ -43,15 +82,10 @@
     padding-bottom: 2.2vw;
     justify-content: left;
     line-height: 20px;
-    width: 240px;
   }
 
 
 
-  .members{
-    margin-left: 0vw;
-    justify-content: left;
-  }
 
   .desc {
     background-color: white;
@@ -93,3 +127,5 @@
       outline: 0;
     }
   
+
+    

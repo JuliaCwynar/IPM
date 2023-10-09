@@ -45,3 +45,13 @@ h1 {
     color: #747bff;
   }
 }
+
+a {
+  border-radius: 10px;
+  padding: 0.5vw;
+  margin: 1vw;
+}
+
+a:hover {
+  color: rgb(150, 150, 150);
+}

@@ -3,6 +3,7 @@ import img2 from '../../public/1e8065c7-45d5-448b-b2ae-96e54724bb90.jfif'
 import img3 from '../../public/image0 (1).jpeg'
 import img4 from '../../public/WhatsApp Image 2023-09-19 at 12.22.46.jpeg'
 import './sidebar.css'
+import Member from './Member.jsx'
 
 
 
@@ -10,43 +11,13 @@ function Sidebar() {
   return (
 
 <div className='navbar'>
-  <div className='members'>
-        <ul>
-        <div className='person'>
-  <img src={img1}></img>
-  <div className='description' style={{paddingLeft: '20px'}}>
-    <p><b>Filip Brna</b></p>
-    <p>68859</p>
-    <button className='portfolio'>Portfolio</button>
-  </div>
-  </div>
-  <div className='person'>
-  <img src={img4}></img>
-  <div className='description'>
-    <p><b>David Pestana</b></p>
-    <p>59812</p>
-    <button className='portfolio'>Portfolio</button>
-  </div>
-  </div>
-  <div className='person'>
-  <img src={img2}></img>
-  <div className='description'>
-    <p><b>Artur Vázquez</b></p>
-    <p>68771</p>
-    <button className='portfolio'>Portfolio</button>
-  </div>
-  </div>
-  <div className='person'>
-  <img src={img3}></img>
-  <div className='description'>
-    <p><b>Julia Cwynar</b></p>
-    <p>68846</p>
-    <button className='portfolio'>Portfolio</button>
-  </div>
-  </div>
-        </ul>
-        </div>
-      </div>
+  <ul>
+  <Member name="Filip Brna" id="68859" img={img1}/>
+  <Member name="David Pestena" id="59812" img={img2}/>
+  <Member name="Artur Vázquez" id="68771" img={img3}/>
+  <Member name="Filip Brna" id="68846" img={img4}/>
+  </ul>
+</div>
   )
       }
       

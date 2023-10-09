@@ -5,6 +5,13 @@
   background-image: url("https://img.freepik.com/premium-photo/blue-light-gradient-background-smooth-blue-blurred-abstract_548821-32801.jpg");
 }
 
+@media only screen and (max-width: 800px) {
+  #root {
+    padding: 0 1rem;
+    ;
+  }
+}
+
 .header {
   background-color: rgba(0, 0, 0, 0.281);
   color: white;
@@ -36,14 +43,21 @@
   width: 100%;
   display: grid;
   gap: 5%;
-  grid-template-columns: 25% 60%;
+  grid-template-columns: auto auto;
 }
 
+@media only screen and (max-width: 800px) {
+  .main {
+    grid-template-columns: auto;
+    ;
+  }
+}
 .post {
   background-color: rgb(255, 255, 255);
   color: black;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   border-radius: 10px;
+  padding-bottom: 1px;
 
 }
 
@@ -52,6 +66,17 @@
   font-weight: 400;
   padding: 0;
   margin: 0;
+}
+
+.right {
+  padding-left: 25vw;
+}
+
+@media only screen and (max-width: 800px) {
+  .right {
+    padding: 0;
+    
+  }
 }
 
 h3 {
