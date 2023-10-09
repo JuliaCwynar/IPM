@@ -43,6 +43,11 @@
     display: grid;
     grid-template-columns: auto auto auto;
   }
+
+  .mobile--members button {
+    position: relative;
+    bottom: 20px;
+  }
 }
 
 .navbar {

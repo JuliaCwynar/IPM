@@ -51,13 +51,16 @@
     grid-template-columns: auto;
     ;
   }
+
+  .post {
+    padding-bottom: 1px;
+  }
 }
 .post {
   background-color: rgb(255, 255, 255);
   color: black;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   border-radius: 10px;
-  padding-bottom: 1px;
 
 }
 
