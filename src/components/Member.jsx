@@ -1,6 +1,6 @@
 import './sidebar.css'
 
-function Member({name, id, img}) {
+function Member({name, id, img, link}) {
 
     return (
     <div className='person'>
@@ -8,7 +8,7 @@ function Member({name, id, img}) {
         <div className='description' style={{paddingLeft: '20px'}}>
             <p><b>{name}</b></p>
             <p>{id}</p>
-            <button className='portfolio'>Portfolio</button>
+            <a href={link} class="btn btn-primary">Portfolio</a>
         </div>
     </div>
     )

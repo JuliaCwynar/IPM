@@ -12,10 +12,10 @@ function Sidebar() {
 
 <div className='navbar'>
   <ul>
-  <Member name="Filip Brna" id="68859" img={img1}/>
-  <Member name="David Pestena" id="59812" img={img2}/>
-  <Member name="Artur Vázquez" id="68771" img={img3}/>
-  <Member name="Filip Brna" id="68846" img={img4}/>
+    <Member name="Filip Brna" id="68859" img={img1} link="https://drive.google.com/drive/folders/1jz2Db39LU8di-CkoYErbjqvzVHVDIzAA"/>
+    <Member name="David Pestena" id="59812" img={img4}/>
+    <Member name="Artur Vázquez" id="68771" img={img2}/>
+    <Member name="Julia Cwynar" id="68846" img={img3} link="https://drive.google.com/drive/folders/1Mu-CI1oVihahpd0EECqTqil8wTHdYmYU"/>
   </ul>
 </div>
   )
