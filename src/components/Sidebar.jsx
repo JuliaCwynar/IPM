@@ -13,8 +13,8 @@ function Sidebar() {
 <div className='navbar'>
   <ul>
     <Member name="Filip Brna" id="68859" img={img1} link="https://drive.google.com/drive/folders/1jz2Db39LU8di-CkoYErbjqvzVHVDIzAA"/>
-    <Member name="David Pestena" id="59812" img={img4}/>
-    <Member name="Artur Vázquez" id="68771" img={img2}/>
+    <Member name="David Pestena" id="59812" img={img4} link="https://drive.google.com/drive/folders/1C_Fk27CXg7nZHBR1fTznda2kZpwOhB_M"/>
+    <Member name="Artur Vázquez" id="68771" img={img2} link="https://drive.google.com/drive/folders/1n12iflgTa8_S96GdyhEThCKk6ORs7RQN"/>
     <Member name="Julia Cwynar" id="68846" img={img3} link="https://drive.google.com/drive/folders/1Mu-CI1oVihahpd0EECqTqil8wTHdYmYU"/>
   </ul>
 </div>
