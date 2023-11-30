@@ -29,7 +29,8 @@ function Header() {
           <h2>Project description</h2>
         <p>Platform to help animals improve/simplify their life quality in shelter or find a new home. We want to create a website that will allow the user to take a pet from the shelter for a walk, to become it's patron with a monthly contribution for food or equipment, or even to adopt the selected dog.</p>
           <p>Platform should work as well as a link between person and shelter itself.</p>
-          <a href='https://drive.google.com/drive/folders/1kXd9Gr0tN9-vBG-8FHmG9y_AArLsZFeb?usp=sharing' style={{margin: '10vw'}}>Google Drive</a>
+          <div style={{margin: '1vw'}}><a href='https://furrever-friends-b2e79d4b362c99efe5692a.webflow.io/' style={{margin: '10vw'}}>Website prototype</a></div>
+          <div><a href='https://drive.google.com/drive/folders/1kXd9Gr0tN9-vBG-8FHmG9y_AArLsZFeb?usp=sharing' style={{margin: '10vw'}}>Google Drive</a></div>
           { windowWidth < 800  && (
        <div className='mobile--members'>
           <Member name="Filip Brna" id="68859" img={img1} link="https://drive.google.com/drive/folders/1jz2Db39LU8di-CkoYErbjqvzVHVDIzAA"/>
